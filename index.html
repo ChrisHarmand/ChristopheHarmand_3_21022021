@@ -11,7 +11,7 @@
 		<!-- CSS desktop -->
 		<link rel="stylesheet" href="css/style.desktop.css" >
     <!-- Favicon -->
-		<link rel="icon" href="images/logos/ohmyfood white.svg" >
+		<link rel="icon" href="images/logos/ohmyfood-white.svg" >
 		<script src="https://kit.fontawesome.com/d53cfbc5d7.js" crossorigin="anonymous"></script>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -20,79 +20,113 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,300&display=swap"/>
 </head>
 
-<header>
-  <img src="images/logos/ohmyfood.png" alt="logo OhMyFood">
-</header>
+<body>
+	<header>
+  	<img src="images/logos/ohmyfood.png" alt="logo OhMyFood">
+	</header>
 
-<section id="search_bar">
-<i class="fas fa-map-marker-alt"></i>
-<input type="text" placeholder="Paris, Belleville"/>
-</section>
+	<section id="search_bar">
+		<i class="fas fa-map-marker-alt"></i>
+		<input type="text" placeholder="Paris, Belleville"/>
+	</section>
 
-<section  id="hero">
-<div class="title-hero">
-  <h2>Réservez le menu qui vous convient</h2>
-  <h3>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h3>
-</div>
-  <div class="cta-hero">
-    <a href="#">Explorer nos restaurants</a>
-  </div>
-</section>
-
-<section id="process">
-	<h2>Fonctionnement</h2>
-
-	<div class="process_container">
-		<div class="step-number">
-			<p>1</p>
+	<section  id="hero">
+		<div class="title-hero">
+  		<h2>Réservez le menu qui vous convient</h2>
+  		<h3>Découvrez des restaurants d'exception, sélectionnés par nos soins.</h3>
 		</div>
-		<div class="step">
-			<i class="fas fa-mobile-alt"></i>
-			<p>Choisissez un restaurant</p>
+  	<div class="cta-hero">
+    	<a href="#">Explorer nos restaurants</a>
+  	</div>
+	</section>
+
+	<section id="process">
+		<h2>Fonctionnement</h2>
+		<div class="process_container">
+			<div class="step-number">
+				<p>1</p>
+			</div>
+			<div class="step">
+				<i class="fas fa-mobile-alt"></i>
+				<p>Choisissez un restaurant</p>
+			</div>
 		</div>
-	</div>
-	<div class="process_container">
-		<div class="step-number">
-			<p>2</p>
+		<div class="process_container">
+			<div class="step-number">
+				<p>2</p>
+			</div>
+			<div class="step">
+				<i class="fas fa-list-ul"></i>
+				<p>Composez votre menu</p>
+			</div>
 		</div>
-		<div class="step">
-			<i class="fas fa-list-ul"></i>
-			<p>Composez votre menu</p>
+		<div class="process_container">
+			<div class="step-number">
+				<p>3</p>
+			</div>
+			<div class="step">
+				<i class="fas fa-store"></i>
+				<p>Dégustez au restaurant</p>
+			</div>
 		</div>
-	</div>
-	<div class="process_container">
-		<div class="step-number">
-			<p>3</p>
+	</section>
+
+	<section id="resto">
+		<h2>Restaurants</h2>
+		<div class="vignette">
+			<img class="image-resto"src="images/restaurants/la-palette-du-gout.jpg"
+			alt="restaurant la palette du gout">
+			<span class="new"> Nouveau</span>
+			<div class="info-resto">
+				<div class="nom-resto">
+					<h3>La palette du goût</h3>
+					<p>Ménilmontant</p>
+				</div>
+			</div>
 		</div>
-		<div class="step">
-			<i class="fas fa-store"></i>
-			<p>Dégustez au restaurant</p>
+		<div class="vignette">
+			<img class="image-resto"src="images/restaurants/la-note-enchantee.jpg"
+			alt="restaurant la palette du gout">
+			<span class="new"> Nouveau</span>
+			<div class="info-resto">
+				<div class="nom-resto">
+					<h3>La note enchantée</h3>
+					<p>Charonne</p>
+				</div>
+			</div>
 		</div>
-	</div>
-</section>
-
-<section id="resto">
-<h2>Restaurants</h2>
-<div class="vignette">
-	<img class="image-resto"src="images/restaurants/la palette du gout.jpg"
-	alt="restaurant la palette du gout">
-	<span class="new"> Nouveau</span>
-	<div class="info-resto">
-		<div class="nom-resto">
-			<h3>La palette du goût</h3>
-			<p>Ménilmontant</p>
+		<div class="vignette">
+			<img class="image-resto"src="images/restaurants/a-la-francaise.jpg"
+			alt="restaurant la palette du gout">
+			<div class="info-resto">
+				<div class="nom-resto">
+					<h3>A la française</h3>
+					<p>Cité Rouge</p>
+				</div>
+			</div>
 		</div>
+		<div class="vignette">
+			<img class="image-resto"src="images/restaurants/le-delice-des-sens.jpg"
+			alt="restaurant le delice des sens">
+			<div class="info-resto">
+				<div class="nom-resto">
+					<h3>Le délice des sens</h3>
+					<p>Folie-Méricourt</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-<label for="">
-	<input type="checkbox">
-	<span class="btn"> </span>
-	<i class="far fa-heart"></i>
-
-
-
-</label>
-
-
-	</div>
-</div>
-</section>
+	<footer>
+		<img src="images/logos/ohmyfood-white.svg" alt="logo OhMyFood">
+		<div class="footer-menu">
+			<ul class="fa-ul">
+				<li><span class="fa-li"><i class="fas fa-utensils"></i></span>Proposer un restaurant</li>
+				<li><span class="fa-li"><i class="fas fa-hands-helping"></i></span>Devenir partenaire</li>
+				<li><span class="fa-li"><i class="fas fa-balance-scale"></i></span>Mentions légales</li>
+				<li><span class="fa-li"><i class="fas fa-envelope"></i></span>Contact</li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
