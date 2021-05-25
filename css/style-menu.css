@@ -200,10 +200,10 @@ footer img{
   width: 10rem;
 }
 footer ul{
-  color: #fff;$
+  color: #fff;
 }
 footer li{
-font-style: 'Roboto';
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 2rem;
   list-style: none;

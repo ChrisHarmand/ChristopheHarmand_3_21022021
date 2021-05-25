@@ -1,0 +1,19 @@
+{
+  "name": "christopheharmand_3_21022021",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css --style expanded"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisHarmand/ChristopheHarmand_3_21022021.git"
+  },
+  "author": "Chris HARMAND",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisHarmand/ChristopheHarmand_3_21022021/issues"
+  },
+  "homepage": "https://github.com/ChrisHarmand/ChristopheHarmand_3_21022021#readme"
+}
